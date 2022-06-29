@@ -1,0 +1,398 @@
+body {
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.anchor_tag {
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    #main {
+        background-color: rgb(94, 39, 201);
+        height: 770px;
+    }
+
+    /* Product CSS */
+    
+    #invisibleAgain > table{
+          
+          width: 1000px;
+          margin-left: 250px;
+
+    }
+    #products:hover{
+        cursor: pointer;
+    }
+
+     #invisible {
+        display: none;
+        background-color: white;
+        border-radius: 15px;
+        height: 170px;
+        width: 200px;
+        position: absolute;
+        left: 25%;
+        color: black;
+    }
+        th,
+        td {
+            width: max-content;
+            text-align: center;
+            padding: 15px 5px 15px 5px;
+            margin-bottom: 200px;
+        }
+
+    .row {
+        gap: 50px;
+    }
+
+    .column {
+      
+        margin-right: 20px;
+    }
+     
+    /* Resourse CSS */
+
+    #resourses:hover {
+              cursor: pointer;
+          }
+
+    #invisible li {
+        margin-top: 10px;
+        margin-left: 0%;
+        list-style: none;
+    }
+
+    #invisible li:hover {
+        background-color: whitesmoke;
+    }
+    #invisibleAgain td:hover{
+        background-color: whitesmoke;
+    }
+    .column > a{
+        color: black;
+    }
+
+    #invisibleAgain {
+        display: none;
+        font-family: inherit;
+        background-color: white;
+       
+        padding: 10px;
+        gap: 20px;
+        width: 1498px;
+        position: absolute;
+       
+        color: rgba(0, 0, 0, 0.807);
+
+    }
+    #invisibleAgain:hover{
+        background-color: white;
+    }
+
+    #invisibleAgain li {
+        margin-top: 20px;
+        margin-left: 0%;
+        list-style: none;
+    }
+
+    #invisibleAgain li:hover {
+        background-color: black;
+    }
+
+    #navBar {
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+    }
+
+    #navBar img {
+        height: 30px;
+        margin-top: 3.5%;
+        margin-left: 12%;
+    }
+
+    .floatsRight {
+        float: right;
+        margin-top: 30px;
+        margin-right: 10%;
+        display: flex;
+    }
+
+    /* Login CSS */
+
+    .logIn {
+        width: 300px;
+        background-color: rgba(41, 6, 111, 0.29);
+        height: 35px;
+        border-radius: 7px;
+        padding-left: 6px;
+        padding-top: 5px;
+    }
+    .login:hover{
+        background-color: white;
+    }
+
+    .logIn button {
+        background-color: rgba(14, 209, 14, 0.87);
+        color: white;
+        border-radius: 7px;
+        width: 80px;
+        height: 30px;
+    }
+
+    .arrow {
+        border: solid white;
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 2px;
+    }
+
+    .down {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+    }
+
+    .logIn img {
+        height: 200px;
+    }
+
+    /* Help CSS */
+
+    .help {
+        margin-left: 100px;
+        margin-top: 10px;
+    }
+    .help:hover{
+        cursor: pointer;
+    }
+
+        /* Image and Input CSS */
+
+    .imgAndinput {
+        display: block;
+    }
+
+    #imgOne {
+        margin-top: 12%;
+        float: left;
+    }
+
+    .imagesRight #imgTwo {
+        position: absolute;
+        right: 0%;
+        top: 30%
+    }
+
+    #center {
+        color: white;
+        margin-left: 37%;
+        font-size: larger;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #center p {
+        margin-left: 5%;
+        font-weight: 500;
+    }
+
+    .category {
+        display: flex;
+    }
+
+    .category p {
+        font-size: 15px;
+    }
+
+    .car {
+        margin-left: 30px;
+    }
+
+    .bike {
+        margin-left: 80px;
+
+    }
+
+    .health {
+        margin-left: 100px;
+    }
+
+    .inputDiv {
+        position: absolute;
+        left: 35%;
+        width: 450px;
+        height: 80px;
+        background-color: white;
+        border: 2px solid whitesmoke;
+        border-radius: 15px;
+    }
+
+    #theInput {
+        width: 260px;
+        height: 50px;
+        border: none;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+
+    .inputAndbutton button {
+        background-color: rgba(14, 209, 14, 0.87);
+        color: white;
+        border-radius: 7px;
+        width: 150px;
+        height: 50px;
+        border: 1px solid green;
+        margin-top: 10px;
+    }
+
+    #main hr {
+        margin-top: 7%;
+        position: absolute;
+        left: 37%;
+        height: 0px;
+        width: 400px;
+        background-color: rgb(126, 124, 124);
+    }
+
+    #main hr+p {
+        margin-top: 8%;
+        position: absolute;
+        left: 44%;
+    }
+            
+           /* Looking CSS */
+
+    .looking {
+        margin-top: 170px;
+        position: absolute;
+        left: 35%;
+        background-color: rgb(94, 39, 201);
+        border: 2px solid rgb(126, 124, 124);
+        border-radius: 10px;
+        width: 500px;
+        height: 70px;
+        display: flex;
+        line-height: 15px;
+    }
+
+    .looking img {
+        margin-top: 10px;
+        margin-left: 10px;
+        height: 50px;
+    }
+
+    .text {
+        margin-left: 20px;
+        font-size: 13px;
+        margin-top: 20px;
+    }
+
+    .looking button {
+        margin-top: 10px;
+        background-color: rgb(94, 39, 201);
+        margin-left: 11%;
+        height: 40px;
+        width: 100px;
+        border-radius: 5px;
+        border: 2px solid grey;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+           /* Official Partners  CSS */
+
+
+    .crick {
+        margin-top: 280px;
+        position: absolute;
+        left: 35%;
+        border: 2px solid rgb(126, 124, 124);
+        border-radius: 10px;
+        width: 500px;
+        height: 120px;
+    }
+
+    .crick p {
+        font-size: 15px;
+        color: white;
+        margin-left: 190px;
+    }
+
+    .crick div {
+        margin-left: 20px;
+    }
+
+    .crick div img {
+        margin-left: 20px;
+    }
+
+         /* Reviews CSS */
+
+    #reviewsHome {
+        display: flex;
+        background: rgb(246, 247, 251);
+        height: 250px;
+    }
+
+    #reviewsHome p {
+        line-height: 5px;
+        font-weight: 500;
+    }
+
+    #reviewsHome img {
+        border-radius: 50%;
+    }
+
+    #reviewsHome img+span {
+        font-weight: 600;
+    }
+
+    .revOne {
+        margin-left: 11%;
+    }
+
+    .revTwo {
+        margin-left: 10%;
+    }
+
+    .revThree {
+        margin-left: 10%;
+    }
+        
+       /* Partners CSS */
+
+    #partners {
+        height: 350px;
+    }
+
+    .moreLeft {
+        margin-left: 500px;
+        font-size: 25px;
+    }
+
+    .lessLeft {
+        margin-left: 520px;
+        font-size: 15px;
+    }
+
+    #partners img {
+        margin: 10px;
+        height: 50px;
+    }
+
+    .rowOne,
+    .rowTwo {
+        margin-left: 32%;
+    }
+
+    .rowThree {
+        margin-left: 37%;
+    }
+
+    #displayFlex {
+        display: flex;
+        background: rgb(246, 247, 251);
+        padding: 0px 10px;
+    }
+}
