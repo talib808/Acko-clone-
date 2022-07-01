@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+
+<body>
+    <div class="main">
+        <div id="loginNav">
+            <a id="index_redirect" href="index.html">
+            <img class="image9" src="https://container-app.ackoassets.com/am/myaccount_frontend/4972dde433c8123ca0821f57ef2e9a5c.svg"></a>
+    
+        </div>
+        <div class="jsa1">
+            <div class="back">back </div>
+            <div class="jsa2">
+                <div class="jsa3">
+                    <div class="jsa3a">
+                        <div class="jsa3b">
+                            <div class="jsa3b1">
+                                <div class="jsb1">
+                                    <img id="arrow" src="https://cdn.iconscout.com/icon/free/png-128/bhim-upi-5104030-4255277.png"alt="">
+                                    <p class="pp1">UPI</p>
+                                </div>
+                                <div class="jsb1 jsb2">
+                                    <img src="https://www.svgrepo.com/show/89093/credit-card.svg" alt="">
+                                    <p class="pp1">Credit / Debit Card</p>
+                                </div>
+                                <div class="jsb1 jsb3">
+                                    <img src="https://cdn.iconscout.com/icon/premium/png-128-thumb/net-banking-29-1055605.png" alt="">
+                                    <p class="pp1">Netbanking</p>
+                                </div>
+                                <div class="jsb1 jsb4">
+                                    <img src="https://www.svgrepo.com/show/187977/wallet.svg" alt="">
+                                    <p class="pp1">Wallets</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="jsa3c">
+                            <div class="jsa3c1">
+                                <div class="js11">
+                                    <p class="pp2">Scan QR and Pay</p>
+                                    <p class="pp3">Scan the QR using any UPI app on your mobile phone like PhonePe,
+                                        Paytm, GooglePay, BHIM etc.</p>
+                                    <button class="qr">
+                                        <p onclick="generateqr()" class="pp7">Generate QR Code</p>
+                                    </button>
+                                    <p class="pp4">Enter your UPI ID</p>
+                                    <input oninput="paycolor()" class="input5" type="text" placeholder="e.g talib@upi">
+                                    <p class="pp5">A collect request will be sent to this UPI ID</p>
+                                    <button onclick="payment_complete()" id="pay_now3" class="pay_now">
+                                        <p class="pp7">Pay Now</p>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="jsa4">
+                    <div class="jsa4a">
+                        <div class="js4a">
+                            <p class="p26">Comprehensive plan</p>
+                            <p class="p27">For your Honda Activa</p>
+                        </div>
+                        <div class="js4b">
+                            <div class="bill_data">
+                                <div class="bill">
+                                    <p class="p28">Net Premium</p>
+                                    <p id="net_premium3" class="value3">₹ 2,390</p>
+                                </div>
+                                <div class="bill">
+                                    <p class="p28">GST</p>
+                                    <p id="gst3" class="value3">₹ 430</p>
+                                </div>
+                            </div>
+                            <div class="last">
+                                <div class=" total3">
+                                    <p>Total</p>
+                                    <p id="total" class="total">₹ 2,820</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <img src="" alt="">
+</body>
+
+<script>
+    function generateqr() {
+        console.log(1);
+        var img = document.getElementById("arrow").innerHTML
+        
+    }
+    function paycolor() {
+        var img = document.getElementById("pay_now3").style.background = "#5E27C9";
+    }
+    function payment_complete() {
+        console.log(1);
+        
+        swal("your order is placed and gets completed soon", {
+            buttons: ["ok"],
+        });
+        setTimeout(function () {
+            swal("Poof! Your payment has been completed!", {
+                        icon: "success",
+                    });
+        }, 3000);
+    }
+        
+</script>
+
+</html>
