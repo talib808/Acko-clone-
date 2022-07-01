@@ -1,0 +1,358 @@
+ #hr {
+     border: 0.1px solid rgba(196, 190, 190, 0.169);
+ }
+
+ #mainContent {
+     display: flex;
+     width: 80%;
+     max-width: 1400px;
+     margin: auto;
+     margin-top: 30px;
+ }
+
+
+ #mainContent>#bikeInfo {
+     width: 30%;
+     height: 200px;
+     padding: 15px;
+     padding-left: 18px;
+     padding-right: 18px;
+     font-size: 13px;
+     border-radius: 10px;
+     border: 1px solid rgba(196, 190, 190, 0.406)
+ }
+
+ #mainContent>#bikeInfo>#bikeNum {
+     display: flex;
+     color: rgb(53, 52, 52);
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ #mainContent>#bikeInfo>#bikeNum>div {
+     display: flex;
+     align-items: center
+ }
+
+ #mainContent>#bikeInfo>#bikeNum>div>b {
+     margin-left: 6px;
+     font-weight: 550px;
+ }
+
+ #mainContent>#bikeInfo>#bikeNum>a {
+     color: rgb(14, 70, 134);
+ }
+
+
+ #mainContent>#bikeInfo>#details {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 20px;
+ }
+
+ #mainContent>#bikeInfo>#details>#otherDetails>div {
+     display: flex;
+     align-items: center;
+     margin-top: -10px;
+     margin-bottom: -15px;
+     margin-left: 2px;
+ }
+
+ #mainContent>#bikeInfo>#details>#otherDetails>div>img {
+     width: 11px;
+ }
+
+ #mainContent>#bikeInfo>#details>#otherDetails>div>p {
+     color: rgb(108, 105, 105);
+     font-size: 12px;
+     margin-left: 10px;
+ }
+
+ #hr2 {
+     width: 110%;
+     margin-left: -5%;
+     margin-top: 20px;
+ }
+
+ #mainContent>#bikeInfo>#insuredValue {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     font-size: 15px;
+ }
+
+ #mainContent>#bikeInfo>#insuredValue>p {
+     color: blueviolet;
+     font-weight: 550;
+ }
+
+
+
+
+ #mainContent>#priceInfo {
+     width: 60%;
+     padding: 1px;
+     padding-left: 20px;
+     padding-right: 20px;
+     margin-left: 30px;
+     border-radius: 10px;
+     border: 1px solid rgba(196, 190, 190, 0.406);
+ }
+
+ #mainContent>#priceInfo>h2 {
+     font-size: 27px;
+ }
+
+ #mainContent>#priceInfo>#selectYear {
+     display: flex;
+     justify-content: space-between;
+     color: rgb(38, 36, 36);
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+
+ #mainContent>#priceInfo>#selectYear>div {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 160px;
+     height: 40px;
+     text-align: center;
+     border-radius: 10px;
+     background-color: rgba(182, 178, 178, 0.263);
+ }
+
+ .selected {
+     border: 1px solid rgb(26, 195, 37);
+ }
+
+ #mainContent>#priceInfo>#plan {
+     display: flex;
+     justify-content: space-between;
+     height: 100px;
+     margin: auto;
+     margin-top: 20px;
+     padding-right: 20px;
+     border-radius: 8px;
+ }
+
+ #mainContent>#priceInfo>#plan>#div2>div:nth-child(1) {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 480px;
+     margin-top: -3px;
+ }
+
+ #mainContent>#priceInfo>#plan>#div2>div>p {
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 12px;
+ }
+
+ #mainContent>#priceInfo>#plan>#div2>div>p>b {
+     font-size: 18px;
+ }
+
+ #mainContent>#priceInfo>#plan>#div2>div {
+     margin-bottom: -20px;
+ }
+
+ #mainContent>#priceInfo>#plan>#div2>div>div {
+     display: flex;
+     align-items: center;
+     margin-top: -15px;
+     margin-left: -8px;
+     font-size: 12px;
+     color: rgb(74, 73, 73);
+ }
+
+ #mainContent>#priceInfo>#plan>#div2>div>div>img {
+     height: 30px;
+     width: 30px;
+ }
+
+ #mainContent>#priceInfo>#plan2 {
+     display: flex;
+     justify-content: space-between;
+     height: 100px;
+     margin: auto;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     padding-right: 20px;
+     border-radius: 8px;
+ }
+
+ #mainContent>#priceInfo>#plan2>#div4>div:nth-child(1) {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 480px;
+     margin-top: -3px;
+     margin-left: 10px;
+ }
+
+ #mainContent>#priceInfo>#plan2>#div4>div>p {
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 12px;
+ }
+
+ #mainContent>#priceInfo>#plan2>#div4>div>p>b {
+     font-size: 18px;
+ }
+
+ #mainContent>#priceInfo>#plan2>#div4>div {
+     margin-bottom: -20px;
+     margin-left: 10px;
+ }
+
+ #mainContent>#priceInfo>#plan2>#div4>div>div {
+     display: flex;
+     align-items: center;
+     margin-top: -15px;
+     margin-left: -8px;
+     font-size: 12px;
+     color: rgb(74, 73, 73);
+ }
+
+ #mainContent>#priceInfo>#plan2>#div4>div>div>img {
+     height: 30px;
+     width: 30px;
+ }
+
+ #mainContent>#priceInfo>#plan2>#div4>div>div>.red {
+     margin-left: 10px;
+     color: red;
+ }
+
+
+ .img {
+     width: 40px;
+     height: 40px;
+     margin-left: 8px;
+     margin-top: 8px;
+     border-radius: 50px;
+ }
+
+ .imgNot {
+     width: 40px;
+     height: 40px;
+     margin-left: 8px;
+     margin-top: 8px;
+     border-radius: 50px;
+ }
+
+ .selected2 {
+     border: 2px solid rgb(37, 214, 61)
+ }
+
+ .notselected {
+     border: 2px solid rgba(209, 206, 206, 0.724);
+ }
+
+
+
+
+ @media all and (max-width:1000px) {
+     #mainContent {
+         display: flex;
+         flex-direction: column;
+     }
+
+     #mainContent>#bikeInfo {
+         width: 100%;
+     }
+
+     #mainContent>#priceInfo {
+         width: 540px;
+         margin-top: 50px;
+         margin-left: 0px;
+     }
+ }
+
+
+ #mainContent>#priceInfo>#b3 {
+     font-family: 900;
+     font-size: 18px;
+ }
+
+ #mainContent>#priceInfo>#accidentCover {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-left: 10px;
+     padding-right: 20px;
+     border: 2px solid rgba(209, 206, 206, 0.5);
+     margin-top: 10px;
+     margin-bottom: 60px;
+     border-radius: 10px;
+ }
+
+ #mainContent>#priceInfo>#accidentCover>div>#p4 {
+     font-size: 14px;
+ }
+
+ #mainContent>#priceInfo>#accidentCover>div>#p4>b {
+     color: blueviolet;
+ }
+
+ #mainContent>#priceInfo>#accidentCover>div>#p5 {
+     font-size: 12px;
+     margin-top: -10px;
+     color: rgb(129, 128, 128);
+ }
+
+ #mainContent>#priceInfo>#accidentCover>#button {
+     width: 70px;
+     height: 23px;
+     border: 1px solid rgb(129, 128, 128);
+     border-radius: 4px;
+     color: rgb(36, 36, 36);
+     background-color: white;
+ }
+
+
+
+ #footer {
+     position: fixed;
+     top: 90%;
+     width: 100%;
+     height: 60px;
+     background-color: white;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     border-radius: 8px;
+     margin-left: -0.5%;
+     margin-bottom: -10px;
+ }
+
+ #footer>p {
+     font-size: 16px;
+     margin-left: 11%;
+ }
+
+ #footer>p>#footerPrice {
+     font-size: 28px;
+     font-family: initial;
+ }
+
+ #footer>#continue {
+     width: 200px;
+     height: 40px;
+     border: none;
+     border-radius: 10px;
+     font-size: 18px;
+     background-color: rgb(36, 198, 49);
+     margin-right: 11%;
+ }
+
+ * {
+     text-decoration: none;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+ #loginNav>img {
+     height: 30px;
+ }
