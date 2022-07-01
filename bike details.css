@@ -1,0 +1,323 @@
+#hr {
+    border: 0.1px solid rgba(196, 190, 190, 0.169);
+}
+
+#mainContent {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#mainContent>#bikeInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 58%;
+    height: 500px;
+    padding: 30px;
+    border: 0.5px solid rgba(196, 190, 190, 0.352);
+    border-radius: 10px;
+}
+
+#mainContent>#bikeInfo>p {
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 550;
+    color: rgb(41, 40, 40);
+}
+
+#mainContent>#bikeInfo>h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    color: rgb(74, 71, 71);
+    margin-top: -5px;
+}
+
+.model {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 20px;
+    margin-top: 40px;
+    padding: 20px;
+    border: 0.5px solid rgba(196, 190, 190, 0.352);
+    border-radius: 10px;
+}
+
+.model>input {
+    outline: none;
+    border: none;
+    width: 90%;
+    height: 30px;
+    font-size: 16px;
+    margin-right: 30px;
+}
+
+.model2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.model2>h2 {
+    font-weight: 900;
+}
+
+
+
+#mainContent>#bikeInfo>.bikeName {
+    position: absolute;
+    top: 360px;
+    left: auto;
+    height: 230px;
+    width: 40%;
+    max-width: 700px;
+    z-index: 1;
+    padding-left: 2px;
+    cursor: pointer;
+    overflow-y: hidden;
+    background-color: white;
+}
+
+#mainContent>#bikeInfo>.bikeName>h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    color: rgb(70, 68, 68);
+}
+
+#mainContent>#bikeInfo>.bikeName>.bikeDiv {
+    font-size: 14px;
+    color: rgb(96, 92, 92);
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(134, 130, 130);
+}
+
+#mainContent>#bikeInfo>#year {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+#mainContent>#bikeInfo>#year>div {
+    display: flex;
+}
+
+#mainContent>#bikeInfo>#year>div>p {
+    margin-left: 10px;
+    color: rgb(104, 104, 104);
+}
+
+#mainContent>#bikeInfo>#year>#select1 {
+    font-size: 12px;
+    color: blueviolet;
+    background-color: rgba(196, 189, 189, 0.279);
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#mainContent>#bikeInfo>.bikeYear {
+    display: grid;
+    width: 25%;
+    max-width: 400px;
+    min-width: 250px;
+    margin-left: 130px;
+    grid-template-columns: repeat(3, auto);
+    background-color: white;
+    color: rgb(106, 103, 103);
+    padding: 5px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#mainContent>#bikeInfo>.bikeYear>div {
+    margin: auto;
+    margin-bottom: 8px;
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 7px;
+    background-color: rgba(192, 185, 185, 0.279);
+    cursor: pointer;
+}
+
+.bikeYear1 {
+    position: absolute;
+    top: 415px;
+    left: auto;
+}
+
+.bikeYear2 {
+    position: absolute;
+    top: 515px;
+    left: auto;
+}
+
+.false {
+    border: 1px solid red;
+}
+
+
+
+#mainContent>#bikeInfo>#status {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+    font-size: 14px;
+}
+
+#mainContent>#bikeInfo>#status>div {
+    display: flex;
+}
+
+#mainContent>#bikeInfo>#status>div>p {
+    margin-left: 10px;
+    color: rgb(104, 104, 104);
+}
+
+#mainContent>#bikeInfo>#status>#select2 {
+    font-size: 12px;
+    color: blueviolet;
+    background-color: rgba(196, 189, 189, 0.279);
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#mainContent>#bikeInfo>.bikeStatus {
+    width: 20%;
+    max-width: 400px;
+    margin-left: 130px;
+    background-color: white;
+    color: rgb(81, 76, 76);
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 15px;
+    padding-top: 8px;
+    padding-bottom: 16px;
+    font-size: 14px;
+}
+
+#mainContent>#bikeInfo>.bikeStatus>div {
+    width: 90%;
+    margin: auto;
+    padding: 8px;
+    text-align: center;
+    margin-top: 13px;
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: rgba(196, 190, 190, 0.251);
+}
+
+.bikeStatus1 {
+    position: absolute;
+    top: 455px;
+    left: auto;
+}
+
+.bikeStatus2 {
+    position: absolute;
+    top: 555px;
+    left: auto;
+}
+
+.selected {
+    border: 1px solid rebeccapurple;
+}
+
+.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 1;
+    pointer-events: all;
+}
+
+#button {
+    margin-top: 40px;
+    width: 150px;
+    height: 43px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+    border-radius: 10px;
+    background-color: rgb(51, 184, 51);
+}
+
+
+
+#mainContent>#staticInfo {
+    width: 34%;
+    height: 290px;
+    margin-left: 30px;
+    padding-left: 25px;
+    padding-top: 24px;
+    border-radius: 10px;
+    border: 0.5px solid rgba(196, 190, 190, 0.352);
+}
+
+#mainContent>#staticInfo>h2>b {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(59, 58, 58);
+}
+
+#mainContent>#staticInfo>div {
+    display: flex;
+    margin-top: -3px;
+}
+
+#mainContent>#staticInfo>div>div {
+    margin-top: 12px;
+    margin-left: 20px;
+}
+
+#mainContent>#staticInfo>div>div>b {
+    font-size: 15px;
+}
+
+#mainContent>#staticInfo>div>div>p {
+    font-size: 12px;
+    margin-top: 5px;
+    color: rgba(97, 94, 94, 0.795);
+}
+
+
+@media all and (max-width:800px) {
+    #mainContent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #mainContent>#bikeInfo {
+        width: 100%;
+    }
+
+    #mainContent>#staticInfo {
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+}
+
+* {
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#loginNav>img {
+    height: 30px;
+}
