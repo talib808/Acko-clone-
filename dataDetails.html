@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="details.css">
+</head>
+
+<body>
+    <div id="loginNav">
+        <a id="index_redirect" href="index.html">
+        <img class="image9" src="https://container-app.ackoassets.com/am/myaccount_frontend/4972dde433c8123ca0821f57ef2e9a5c.svg"></a>
+
+    </div>
+    <div id="main" class="main">
+        <div class="page">
+            <div class="container1">
+                <div class="container2">
+                    <div id="left" class="left">
+                        <div class="step1">
+                            <span class="span">
+                                <div class="jss1">1</div>
+                                <p class="p2">Enter details</p>
+                            </span>
+                            <span class="span">
+                                <div id="js2" class="jss1 js2">2</div>
+                                <p class="p2">verify details</p>
+                            </span>
+                            <span class="span">
+                                <div id="js3" class="jss1 js3">3</div>
+                                <p class="p2">Review & pay</p>
+                            </span>
+                        </div>
+                        <div id="details" class="details">
+                            <div class="jss2">
+                                <p class="p1">Answer a few more questions</p>
+                                <div class="all_details">
+                                    <div class="name" name="name">
+                                        <input class="input" id="name" onclick="increase()" type="text"
+                                            placeholder="Talib">
+                                        <p class="p3">Full name (as Per RC)</p>
+                                    </div>
+                                    <div class="name email">
+                                        <input class="input" id="email" onclick="increase()" type="text"
+                                            placeholder="someone@gmail.com">
+                                        <p class="p3">Email</p>
+                                    </div>
+                                    <div class="name mobile">
+                                        <input class="input" id="mobile" onclick="increase()" type="text"
+                                            placeholder="+91 333-444">
+                                        <p class="p3">Mobile</p>
+                                        <p class="otp"></p>
+                                    </div>
+                                    <div class="name ">
+                                        <input class="input bike" onclick="increase()" autocapitalize="true" type="text"
+                                            placeholder="JH01G2785">
+                                        <p class="p3">Bike Number</p>
+                                    </div>
+                                    <div class="name pincode">
+                                        <input class="input" type="text" id="pincode" onclick="increase()"
+                                            placeholder="822122">
+                                        <p class="p3">Pincode</p>
+                                    </div>
+                                    <div class="review">
+                                        <img src="data:image/jpeg;base64,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" alt="">
+                                        <p class="p6">As your policy has expired, your new policy will start 3 days from
+                                            today,
+                                            i.e. 29 june 2022. However, you'll still get your policy instantly.</p>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="requirement">
+                                        <p class="p4">Previous year policy document is required in case of claim within
+                                            30 days of
+                                            the Acko Policy start date</p>
+                                    </div>
+                                    <div class="conditions">
+                                        <p class="p5">By tapping on continue I declare that I have provided correct
+                                            details and
+                                            have read Acko's T&C.</p>
+                                    </div>
+                                    <button onclick="solve()" class="button1">Continue</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="jss3">
+                            <div class="jss31">
+                                <div class="plan">
+                                    <div class="jss311">
+                                        <p class="p7">Comprehensive plan</p>
+                                        <p id="p8" class="p8"></p>
+                                    </div>
+                                    <img src="data:image/svg+xml,%3Csvg width='74' height='52' viewBox='0 0 74 52' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3Cpath d='M58.4674 51.7227C52.4554 51.4881 47.6458 45.0362 47.6458 37.3526C47.6458 29.6689 52.4554 23.5103 58.4674 23.6276L61.6934 23.6863V51.8694L58.4674 51.7227Z' fill='%230B0E34'/%3E %3Cpath d='M73.1602 38.115C73.1602 30.2554 68.1746 23.8035 62.0746 23.6862C56.0333 23.5689 51.1944 29.7275 51.1944 37.4405C51.1944 45.1534 56.0333 51.6053 62.0746 51.84C68.2039 52.1039 73.1602 45.9453 73.1602 38.115Z' fill='%23343758'/%3E %3Cpath d='M68.6733 37.9685C68.6733 33.1883 65.7113 29.2291 62.1041 29.1412C58.4969 29.0532 55.5936 32.8363 55.5936 37.558C55.5936 42.2796 58.4969 46.2387 62.1041 46.3853C65.7113 46.532 68.6733 42.7488 68.6733 37.9685Z' fill='%23B0B1C4'/%3E %3Cpath d='M63.3942 39.8455C64.274 39.3763 64.6259 38.2912 64.1567 37.4114L59.2298 27.9388C58.7606 27.059 57.6755 26.7071 56.7957 27.1763C55.9159 27.6455 55.564 28.7306 56.0332 29.6104L60.9601 39.083C61.4293 39.9628 62.5144 40.2854 63.3942 39.8455Z' fill='%23343758'/%3E %3Cpath d='M20.4891 6.5297C20.7824 6.5297 21.0756 6.44171 21.3103 6.23643C21.8088 5.79653 21.8675 5.03403 21.3982 4.5648L18.6122 1.60279C17.879 0.810966 16.8233 0.400391 15.7382 0.400391L11.955 0.459044C11.2805 0.459044 10.7526 1.01625 10.7526 1.66144C10.7526 2.30663 11.3098 2.83452 11.9843 2.83452C11.9843 2.83452 11.9843 2.83452 12.0136 2.83452L15.7968 2.80519C16.1781 2.83452 16.53 2.95182 16.7939 3.24509L19.5506 6.2071C19.8146 6.41239 20.1665 6.5297 20.4891 6.5297Z' fill='%23343758'/%3E %3Cpath d='M11.1927 34.3612C12.1312 34.7424 13.1869 34.3025 13.5682 33.3934L20.9292 14.8882L17.5273 13.4512L10.1663 32.0444C9.78501 32.9242 10.2542 33.98 11.1927 34.3612Z' fill='%23343758'/%3E %3Cpath d='M43.1879 15.768C43.2759 19.8151 50.8715 20.6949 54.2441 19.903C56.9422 19.2872 61.4292 18.5833 63.1595 18.2901C63.9513 18.1728 64.7431 18.2901 65.447 18.642C66.4441 19.1405 67.7344 20.2256 68.8489 22.4545C69.4941 23.7742 68.1157 25.1525 66.6787 24.6247C65.1244 24.0381 63.1888 23.7155 61.0479 24.3021C57.4114 25.2405 55.2705 27.6747 54.0095 32.279C53.1297 35.5049 52.4845 38.4669 51.6633 39.2881C49.6105 41.3116 33.8033 40.6958 32.2783 40.2265C30.7826 39.7573 24.536 13.4805 24.536 13.4805L43.1879 15.768Z' fill='%23F75276'/%3E %3Cpath d='M24.5365 13.5099C25.7096 17.5276 32.2788 40.2559 32.2788 40.2559C32.2788 40.2559 27.4399 40.0213 26.0615 39.3175C22.249 37.3819 17.6447 13.4219 17.6447 13.4219L24.5365 13.5099Z' fill='%230B0E34'/%3E %3Cpath d='M43.1882 15.768C43.1882 15.768 42.5137 20.4603 33.745 19.3458L35.8272 27.7333C36.5311 30.6073 39.2585 32.6602 42.3671 32.6602L53.9219 32.7189C53.1007 35.7689 52.4848 38.4963 51.693 39.2881C49.6401 41.3116 33.833 40.6958 32.308 40.2265C30.8123 39.7573 24.5657 13.4805 24.5657 13.4805L43.1882 15.768Z' fill='%23E50031'/%3E %3Cpath d='M24.5361 13.5092L26.501 7.23327C26.501 7.23327 31.3106 5.94289 35.6217 7.29192C39.962 8.64096 43.1 11.7203 43.188 15.7674C43.188 15.7674 43.012 20.6943 24.5361 13.5092Z' fill='%23F75276'/%3E %3Cpath d='M11.4562 51.7518C5.59086 51.4879 0.839924 44.948 0.839924 37.1177C0.839924 29.2875 5.56153 23.0409 11.4562 23.1288L14.6235 23.1875V51.8691L11.4562 51.7518Z' fill='%230B0E34'/%3E %3Cpath d='M25.8853 37.8799C25.8853 29.8737 20.9877 23.3045 15.0343 23.1872C9.11031 23.0699 4.35938 29.3458 4.35938 37.2054C4.35938 45.065 9.11031 51.6342 15.0343 51.8981C20.9877 52.1327 25.8853 45.8568 25.8853 37.8799Z' fill='%23343758'/%3E %3Cpath d='M21.457 37.7333C21.457 32.865 18.5537 28.8473 15.0051 28.7593C11.4859 28.6713 8.64121 32.5131 8.64121 37.352C8.64121 42.191 11.4859 46.2087 15.0051 46.3261C18.5537 46.4434 21.457 42.6015 21.457 37.7333Z' fill='%23B0B1C4'/%3E %3Cpath d='M14.4184 39.7859C15.3569 40.1671 16.4419 39.7272 16.7939 38.8181L23.803 21.2807C24.0376 20.6648 23.9203 19.9903 23.4804 19.4917C22.5712 18.436 20.841 18.6999 20.3131 19.961L13.3333 37.4691C13.0107 38.3489 13.4799 39.4046 14.4184 39.7859Z' fill='%23343758'/%3E %3Cpath d='M18.1721 3.56786C18.1721 3.56786 24.1841 1.89623 26.6769 6.55919C29.199 11.2222 25.1519 16.7649 18.1721 15.8558V3.56786Z' fill='%23F75276'/%3E %3Cpath d='M13.2453 9.66736C13.2453 13.0399 15.4448 15.7967 18.1722 15.8553C20.8996 15.8846 23.1284 13.1573 23.1284 9.75534C23.1284 6.35343 20.8996 3.59671 18.1722 3.56738C15.4448 3.56738 13.2453 6.29478 13.2453 9.66736Z' fill='%23FF92AC'/%3E %3Cpath d='M14.2719 9.55069C14.2719 12.1608 15.7676 14.2723 17.6445 14.3016C19.5214 14.331 21.0171 12.2194 21.0171 9.60934C21.0171 6.99926 19.4921 4.88773 17.6152 4.8584C15.7676 4.8584 14.2719 6.96993 14.2719 9.55069Z' fill='white'/%3E %3Cpath d='M26.6771 6.91056C26.9997 6.91056 27.3516 6.79325 27.5862 6.55863L29.5218 4.62306C30.431 3.71393 31.7213 3.18605 33.041 3.18605H37.0295C37.7333 3.18605 38.2905 2.65817 38.2905 1.98365C38.2905 1.30913 37.7333 0.78125 37.0295 0.78125H33.041C31.0175 0.78125 29.0819 1.57307 27.7036 2.95143L25.768 4.887C25.2988 5.35623 25.2988 6.11873 25.7973 6.58796C26.0613 6.79325 26.3545 6.91056 26.6771 6.91056Z' fill='%23343758'/%3E %3Cpath d='M43.188 15.7674C43.188 15.7674 47.4404 15.7674 48.5548 15.1222C49.6693 14.4771 57.8808 13.0987 63.101 13.9198C63.101 13.9198 65.5937 14.3011 65.7697 14.8876C65.9457 15.4742 66.8255 18.7881 66.3269 19.2573C65.8284 19.6972 54.6548 20.753 53.863 20.8703C53.1005 20.9583 44.7424 21.1929 42.5722 17.0871C42.6015 17.0871 42.8361 16.7352 43.188 15.7674Z' fill='%23343758'/%3E %3Cpath d='M12.3654 21.2516L24.2134 22.3954C24.5067 22.4247 24.7413 22.2487 24.8 21.9848L25.0932 20.7531C25.1812 20.4305 24.9173 20.1079 24.5947 20.0785L12.7466 18.9641C12.4827 18.9348 12.2188 19.1108 12.1601 19.3747L11.8962 20.5771C11.8082 20.8997 12.0428 21.2223 12.3654 21.2516Z' fill='%23FFE9EE'/%3E %3C/svg%3E" alt="">
+                                </div>
+                                <div class="overview">
+                                    <div class="jssa">
+                                        <p class="p18">Own Damage Premium</p>
+                                        <div class="value">₹ 134</div>
+                                    </div>
+                                    <div class="jssa">
+                                        <p class="p18">Third Party cover</p>
+                                        <div id="third_party_cover" class="value">₹ 2,256</div>
+                                    </div>
+                                    <div class="jssa">
+                                        <p class="p18">Net Premium</p>
+                                        <div id="net_premium" class="value">₹ 2,390</div>
+                                    </div>
+                                    <div class="jssa">
+                                        <p class="p18">GST</p>
+                                        <div id="gst" class="value">₹ 430</div>
+                                    </div>
+                                </div>
+                                <div class="jssa total">
+                                    <p>Total</p>
+                                    <p id="total" class="total">₹ 2,820</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script>
+    var count = 0;
+    function increase() {
+        count++
+    }
+    localStorage.setItem("bike_no", "JH01G2785");
+    localStorage.setItem("model", "Yamha");
+    localStorage.setItem("Registration", "2010");
+    localStorage.setItem("Insured_Declared_Value", "15,029");
+    localStorage.setItem("Policy_Start_Date", "june 30, 2022");
+    localStorage.setItem("net_premium", "2222");
+    var model = localStorage.getItem("model");
+    document.getElementById("p8").innerHTML = `for your ${model}`
+
+    var net_premium = parseInt(localStorage.getItem("net_premium"));
+    document.getElementById("net_premium").innerHTML = `₹ ${net_premium}`
+    document.getElementById("third_party_cover").innerHTML = `₹ ${net_premium - 124}`
+    var gst = Math.floor(net_premium / 6)
+    document.getElementById("gst").innerHTML = `₹ ${gst}`
+    var total = net_premium + gst
+    document.getElementById("total").innerHTML = `₹ ${total}`
+
+function values() {
+    var name = document.getElementById("name").value
+        localStorage.setItem("name", `${name}`);
+
+    var email = document.getElementById("email").value
+        localStorage.setItem("email", `${email}`);
+
+    var mobile = document.getElementById("mobile").value
+        localStorage.setItem("mobile", `${mobile}`);
+
+    var pincode = document.getElementById("pincode").value
+        localStorage.setItem("pincode", `${pincode}`);
+        var Name = localStorage.getItem("name");
+        console.log(Name);
+}
+
+   async function solve() {
+        document.getElementById("js2").style.background = "rgb(62, 183, 83)"
+        if (count >= 5) {
+            await values()
+            console.log(count)
+            count = 0
+            swal("are you sure you want to continue payment")
+                .then((value) => {
+                    resolve();
+
+                    var net_premium = parseInt(localStorage.getItem("net_premium"));
+                    document.getElementById("net_premium").innerHTML = `₹ ${net_premium}`
+                    document.getElementById("third_party_cover").innerHTML = `₹ ${net_premium - 124}`
+                    var gst = Math.floor(net_premium / 6)
+                    document.getElementById("gst").innerHTML = `₹ ${gst}`
+                    var total = net_premium + gst
+                    document.getElementById("total").innerHTML = `₹ ${total}`
+
+                    document.getElementById("total1").innerHTML = `₹ ${total}`
+                    var bike_no = localStorage.getItem("bike_no");
+                    document.getElementById("bike_no").innerHTML = bike_no
+
+                    var model = localStorage.getItem("model");
+                    document.getElementById("model").innerHTML = model
+
+                    var Registration = localStorage.getItem("Registration");
+                    document.getElementById("reg_year").innerHTML = Registration
+
+                    var Insured_Declared_Value = localStorage.getItem("Insured_Declared_Value");
+                    document.getElementById("insured_value").innerHTML = Insured_Declared_Value
+
+                    var Policy_Start_Date = localStorage.getItem("Policy_Start_Date");
+                    document.getElementById("policy_start_date").innerHTML = Policy_Start_Date
+
+                    var name = localStorage.getItem("name");
+                    document.getElementById("name").innerHTML = name
+
+                    var email = localStorage.getItem("email");
+                    document.getElementById("email").innerHTML = email
+
+                    var mobile = localStorage.getItem("mobile");
+                    document.getElementById("mobile").innerHTML = mobile
+
+                    var pincode = localStorage.getItem("pincode");
+                    document.getElementById("pincode").innerHTML = pincode
+
+                });
+        } else {
+            console.log(count);
+            swal("Please provide all details", {
+                button: "ok",
+            });
+        }
+
+    }
+    function resolve() {
+
+        document.getElementById("js3").style.background = "rgb(62, 183, 83)"
+        var main = document.getElementById("main")
+        main.innerHTML = ""
+        main.innerHTML = payment()
+    }
+    function payment() {
+        return `<div class="page">
+            <div class="container1">
+                <div class="container2">
+                    <div class="left">
+                        <div class="step1">
+                            <span class="span">
+                                <div class="jss1">1</div>
+                                <p class="p2">Enter details</p>
+                            </span>
+                            <span class="span">
+                                <div id="js2" class="jss1">2</div>
+                                <p class="p2">verify details</p>
+                            </span>
+                            <span class="span">
+                                <div id="js3" class="jss1">3</div>
+                                <p class="p2">Review & pay</p>
+                            </span>
+                        </div>
+                        <div id="details2" class="details2">
+                            <div class="p11">
+                                <p class="p11a">Please verify the details. All the information below will show up on your policy</p>
+                            </div>
+                            <div class="jss4a">
+                                <div class="jss5">
+                                    <div class="bike_detail">
+                                        <p class="p12">Bike Details</p>
+                                        <div class="jss6a">
+                                            <div class="jss61">
+                                                <p class="p13">Bike Number</p>
+                                                <p id="bike_no" class="p14">DL4SBN0731</p>
+                                            </div>
+                                            <div class="jss61">
+                                                <p class="p13">Make/Model</p>
+                                                <p id="model" class="p14">Honda Activa</p>
+                                            </div>
+                                            <div class="jss61">
+                                                <p class="p13">Registration Year</p>
+                                                <p id="reg_year" class="p14">2009</p>
+                                            </div>
+                                            <div class="jss61">
+                                                <p class="p13">Insured Declared Value</p>
+                                                <p id="insured_value" class="p14">₹ 15,040</p>
+                                            </div>
+                                            <div class="jss61">
+                                                <p class="p13">Policy Start Date</p>
+                                                <p id="policy_start_date" class="p14">july 1, 2022</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="jss6"></div>
+                                <div class="jss7">
+                                    <div class="jss5">
+                                        <div class="bike_detail">
+                                            <p class="p12">Bike Owner Details</p>
+                                            <div class="jss6a">
+                                                <div class="jss61">
+                                                    <p class="p13">Name</p>
+                                                    <p id="name" class="p14">Md Talib Ansari</p>
+                                                </div>
+                                                <div class="jss61">
+                                                    <p class="p13">Email Address</p>
+                                                    <p id="email" class="p14">mdtalibansari55048@gmail.com</p>
+                                                </div>
+                                                <div class="jss61">
+                                                    <p class="p13">Mobile Number</p>
+                                                    <p id="mobile" class="p14">8340595343</p>
+                                                </div>
+                                                <div class="jss61">
+                                                    <p class="p13">Pincode</p>
+                                                    <p id="pincode" class="p14">822122</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="jss6"></div>
+                                <div class="jss9">
+                                    <div class="jss91">
+                                        <input type="checkbox" name="checkbox" class="checkbox"  id="">
+                                        <p class="p16">Get Policy on Whatsapp</p>
+                                    </div>
+                                    <img  src="https://th.bing.com/th/id/R.9f705111f037ae799f0bcf9633be3ca1?rik=S1APAPrO4DitgA&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_427156.png&ehk=gaOCv7%2fvVMvnvRnnXlwM6oMhJy4rgItgQs7c8WTNijA%3d&risl=&pid=ImgRaw&r=0" alt="">
+                                </div>
+                                <div class="jss10">
+                                    <button id="total1" onclick="payment2()" class="pay">pay ₹2,820</button>
+                                    <div class="jss101">
+                                        <img src="https://th.bing.com/th/id/OIP.b3CzpJ_fTQ2t729vvig1RAHaEK?w=321&h=180&c=7&r=0&o=5&dpr=1.42&pid=1.7" alt="">
+                                        <p class="p17">Trusted by 4.5 Crore Indians</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="jss3">
+                            <div class="jss31">
+                                <div class="plan">
+                                    <div class="jss311">
+                                        <p class="p7">Comprehensive plan</p>
+                                        <p id="p8" class="p8"></p>
+                                    </div>
+                                    <img src="https://th.bing.com/th/id/OIP.32EJMFms3r20fbGSbakDuAAAAA?pid=ImgDet&w=150&h=150&c=7&dpr=1.42" alt="">
+                                </div>
+                                <div class="overview">
+                                    <div class="jssa">
+                                        <p class="p18">Own Damage Premium</p>
+                                        <div class="value">₹ 134</div>
+                                    </div>
+                                    <div class="jssa">
+                                        <p class="p18">Third Party cover</p>
+                                        <div id="third_party_cover" class="value">₹ 2,256</div>
+                                    </div>
+                                    <div class="jssa">
+                                        <p class="p18">Net Premium</p>
+                                        <div id="net_premium" class="value">₹ 2,390</div>
+                                    </div>
+                                    <div class="jssa">
+                                        <p class="p18">GST</p>
+                                        <div id="gst" class="value">₹ 430</div>
+                                    </div>
+                                </div>
+                                <div class="jssa total">
+                                    <p>Total</p>
+                                    <p id="total" class="total">₹ 2,820</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>`
+    }
+</script>
+<script>
+    function payment2() {
+       var main = document.getElementById("main")
+       main.innerHTML = ``
+       main.innerHTML = solve()
+       function solve() {
+           return `
+<div class="jsa1">
+    <div class="jsa2">
+        <div class="jsa3">
+            <div class="jsa3a">
+                <div class="jsa3b">
+                    <div class="jsa3b1">
+                        <div class="jsb1">
+                            <img id="arrow" src="https://cdn.iconscout.com/icon/free/png-128/bhim-upi-5104030-4255277.png" alt="">
+                            <p class="pp1">UPI</p>
+                        </div>
+                        <div class="jsb1 jsb2">
+                            <img src="https://www.svgrepo.com/show/89093/credit-card.svg" alt="">
+                            <p class="pp1">Credit / Debit Card</p>
+                        </div>
+                        <div class="jsb1 jsb3">
+                            <img src="https://cdn.iconscout.com/icon/premium/png-128-thumb/net-banking-29-1055605.png" alt="">
+                            <p class="pp1">Netbanking</p>
+                        </div>
+                        <div class="jsb1 jsb4">
+                            <img src="https://www.svgrepo.com/show/187977/wallet.svg" alt="">
+                            <p class="pp1">Wallets</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="jsa3c">
+                    <div class="jsa3c1">
+                        <div class="js11">
+                            <p class="pp2">Scan QR and Pay</p>
+                            <p class="pp3">Scan the QR using any UPI app on your mobile phone like PhonePe,
+                                Paytm, GooglePay, BHIM etc.</p>
+                            <button id="qr6" class="qr">
+                                <p onclick="generateqr()" class="pp7">Generate QR Code</p>
+                            </button>
+                            <img id="qrcodeimg" alt="">
+                            <p class="pp4">Enter your UPI ID</p>
+                            <input oninput="paycolor()" class="input5" type="text" placeholder="e.g talib@upi">
+                            <p class="pp5">A collect request will be sent to this UPI ID</p>
+                            <button onclick="payment_complete()" id="pay_now3" class="pay_now">
+                                <p class="pp7">Pay Now</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jsa4">
+            <div class="jsa4a">
+                <div class="js4a">
+                    <p class="p26">Comprehensive plan</p>
+                    <p class="p27">For your Honda Activa</p>
+                </div>
+                <div class="js4b">
+                    <div class="bill_data">
+                        <div class="bill">
+                            <p class="p28">Net Premium</p>
+                            <p id="net_premium3" class="value3">₹ 2,390</p>
+                        </div>
+                        <div class="bill">
+                            <p class="p28">GST</p>
+                            <p id="gst3" class="value3">₹ 430</p>
+                        </div>
+                    </div>
+                    <div class="last">
+                        <div class=" total3">
+                            <p>Total</p>
+                            <p id="total" class="total">₹ 2,820</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>`
+       }
+    }
+    function generateqr() {
+        document.getElementById("qrcodeimg").src = "https://th.bing.com/th/id/OIP.DlNy2gcdkgPIF8mXr61l3gHaHa?w=166&h=180&c=7&r=0&o=5&dpr=1.42&pid=1.7"
+    }
+    function paycolor() {
+        var img = document.getElementById("pay_now3").style.background = "#5E27C9";
+    }
+    function payment_complete() {
+
+        swal("We are Processing your Payment", {
+            buttons: ["ok"],
+        });
+        setTimeout(function () {
+            swal("Poof! Your payment has been completed!", {
+                icon: "success",
+                buttons: true,
+
+                
+            });
+            mainpage()
+        }, 2000);
+    }
+ function mainpage() {
+     setTimeout(function () {
+        document.getElementById("index_redirect").click()
+     },2000)
+ }
+function back() {
+    console.log(2);
+}
+</script>
+
+</html>
