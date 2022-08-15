@@ -4,6 +4,8 @@
 # Idea:-
 ## Since I'm pursuing a Full Stack Web Development course at Masai School I was given a project to clone an Acko-Insurance website, Acko. 
 I was given a team of five members including me and the task was to clone the pixel-perfect clone of the website. Let's look at how we designed it 👇
+# navbar Page👇
+![App Screenshot](https://snipboard.io/LYgpRd.jpg)
 
 # Acko landing Page👇
 ![App Screenshot](https://snipboard.io/OX1aWs.jpg)
@@ -27,14 +29,14 @@ I was given a team of five members including me and the task was to clone the pi
 ![App Screenshot](https://snipboard.io/7xWGwv.jpg)
 
 ## Team Members
-> ### •[Nd Talib](https://github.com/talib789)
+> ### •[Md Talib](https://github.com/talib789)
 > ### •[Vishal Karale](https://github.com/vishalvsk)
 > ### • [ALOK YADAV](https://github.com/alok1910010)
 > ### • [Avinash Shukla](https://github.com/AvinashShukla007)
 
 # Project
 > GitHub - [Code](https://github.com/talib789/Acko-clone-) <br>
-> Netlify - [Live demo]() <br>
+> Netlify - [Live demo](https://earnest-figolla-f633bb.netlify.app) <br>
 
 # Technology Used
 > • HTML <br>
