@@ -43,6 +43,7 @@
 > • HTML <br>
 > • CSS <br>
 > • JAVASCRIPT <br>
+> • Bootstrap <br>
 > • DOM <br>
 > • Local Storage
 
