@@ -1,10 +1,10 @@
 # Problem Statement :-
 ## Our Problem statement is to build a pixel-perfect Acko website clone. 
 
-### On ACKO, User can buy insurance for his two-wheeler, completely online in just a few minutes. No inspection or paperwork needed - even if your previous insurance has expired. Types of Bike Insurance Policies on ACKO Our bike insurance plans cover different types of two wheelers such as motorcycles, mopeds, scooters, and more.
+#### On ACKO, User can buy insurance for his two-wheeler, completely online in just a few minutes. No inspection or paperwork needed - even if your previous insurance has expired. Types of Bike Insurance Policies on ACKO Our bike insurance plans cover different types of two wheelers such as motorcycles, mopeds, scooters, and more.
 
 # Idea:-
-### I'm pursuing a Full Stack Web Development course at Masai School I was given a project to clone an Acko-Insurance website, Acko. I was given a team of five members including me and the task was to clone the pixel-perfect clone of the website. Let's look at how we designed it 👇
+#### I'm pursuing a Full Stack Web Development course at Masai School I was given a project to clone an Acko-Insurance website, Acko. I was given a team of five members including me and the task was to clone the pixel-perfect clone of the website. Let's look at how we designed it 👇
 # navbar Page👇
 ![App Screenshot](https://snipboard.io/LYgpRd.jpg)
 
